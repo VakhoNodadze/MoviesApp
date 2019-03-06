@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/MoviesApp/static/media/fontawesome-webfont.af7ae505.woff2"
   },
   {
-    "revision": "fb6752deae81110a0770",
+    "revision": "4cc38bf1f305cf258423",
     "url": "/MoviesApp/static/css/main.39374966.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/MoviesApp/static/js/runtime~main.73b0a586.js"
   },
   {
-    "revision": "fb6752deae81110a0770",
-    "url": "/MoviesApp/static/js/main.fb6752de.chunk.js"
+    "revision": "4cc38bf1f305cf258423",
+    "url": "/MoviesApp/static/js/main.4cc38bf1.chunk.js"
   },
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/MoviesApp/static/css/1.cfd33f77.chunk.css"
   },
   {
-    "revision": "699fa28adc7f40f3c4a9d132debf09ed",
+    "revision": "8d330b9de09642bcd7077c5c00bf5b8b",
     "url": "/MoviesApp/index.html"
   }
 ];
