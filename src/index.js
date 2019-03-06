@@ -1,16 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.css";
 import "font-awesome/css/font-awesome.css";
 
 ReactDOM.render(
-    <BrowserRouter>
+    <HashRouter>
         <App />
-    </BrowserRouter>,
+    </HashRouter>,
     document.getElementById("root")
 );
 

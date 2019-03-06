@@ -15,18 +15,16 @@ class App extends Component {
       <React.Fragment>
         <NavBar />
         <main className="container">
-          <HashRouter>
-            <Switch>
-              <Route path="/movies/:title" component={MovieForm} />
-              <Route path="/movies" component={Movies} />
-              {/* <Route path="/customers" component={Customers} />
+          <Switch>
+            <Route path="/movies/:title" component={MovieForm} />
+            <Route path="/movies" component={Movies} />
+            {/* <Route path="/customers" component={Customers} />
             <Route path="/rentals" component={Rentals} /> */}
-              <Route path="/favourites" component={Favourites} />
-              {/* <Route path="/not-found" component={NotFound} /> */}
-              <Redirect from="/" exact to="/movies" />
-              <Redirect to="/not-found" />
-            </Switch>
-          </HashRouter>
+            <Route path="/favourites" component={Favourites} />
+            {/* <Route path="/not-found" component={NotFound} /> */}
+            <Redirect from="/" exact to="/movies" />
+            <Redirect to="/not-found" />
+          </Switch>
         </main>
       </React.Fragment>
     );
