@@ -17,7 +17,6 @@ class Favourites extends Component {
     handleDelete = movie => {
         const movies = this.state.movies.filter(m => m._id !== movie);
         this.setState({ movies });
-        console.log(movie);
     };
 
     handleSort = sortColumn => {
